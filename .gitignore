@@ -1,0 +1,35 @@
+# Archivos de resultados temporales
+resultados/*.csv
+resultados/*.png
+resultados/*.jpg
+
+# Excepciones - mantener archivos de ejemplo
+!resultados/.gitkeep
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema
+.DS_Store
+Thumbs.db
