@@ -30,6 +30,8 @@ k-means/
 
 ## 🚀 Inicio Rápido
 
+> 📖 **[Ver guía completa de ejecución](COMO_EJECUTAR.md)** con solución de problemas
+
 ### 1. Instalar dependencias:
 ```bash
 pip install -r requirements.txt
@@ -46,6 +48,7 @@ python scripts/test_rapido.py
 ```bash
 jupyter notebook scripts/analisis_kmeans_congestion.ipynb
 ```
+Luego: `Cell → Run All`
 
 **Opción B - Script Python:**
 ```bash
@@ -57,6 +60,12 @@ python scripts/analisis_kmeans.py
 📊 **Dataset:** 76,140 filas × 70 columnas  
 ⏱️ **Tiempo de ejecución completo:** ~5-10 minutos  
 🧪 **Tiempo de prueba rápida:** ~30 segundos
+
+### ✅ Notebook Actualizado
+El notebook ya está corregido con:
+- ✅ Rutas correctas a `data/` y `resultados/`
+- ✅ Celda de entrenamiento K-Means incluida
+- ✅ Listo para ejecutar sin modificaciones
 
 ## 🎯 Objetivos Cumplidos
 
